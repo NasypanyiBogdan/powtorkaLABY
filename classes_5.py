@@ -54,7 +54,6 @@ class SportShoesStore:
         return self.sneakers_list
 
     def top_popular(self, top_n=3):
-        # Ручне сортування за number_of_sales
         n = len(self.sneakers_list)
         for i in range(n):
             for j in range(0, n - i - 1):
